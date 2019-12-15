@@ -59,9 +59,9 @@ include::{pipeline-solutions}/02-Jenkinsfile-base[]
 * En utilisant le *Blue Ocean Pipeline Editor*:
 ** Modifiez le pipeline actuel
 ** La "stage" *Build* doit archiver tous les fichier ".jar" générés
-*** _Indices :_ Dans le dossier `target`, motif `{asterisk}.jar`
-** La "stage" *Test* doit publier les rapports de test `junit`
-*** _Indices :_ Dans le dossier `target`, motif `{asterisk}{asterisk}/{asterisk}.xml`
+*** _Indice :_ Dans le dossier `target`, motif `{asterisk}.jar`
+** La "stage" *Test* doit publier récursivement tous les rapports de test `junit`
+*** _Indice :_ Dans le dossier `target`, motif `{asterisk}{asterisk}/{asterisk}.xml`
 * Le Pipeline doit être *UNSTABLE*
 
 == Solution : Archives et Tests
