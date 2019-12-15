@@ -15,7 +15,10 @@ Vagrant.configure("2") do |config|
     vm.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
 
     # Port forwarding
-    override.vm.network "forwarded_port", guest: 10000, host: 10000, auto_correct: true, id: "http"
+    override.vm.network "forwarded_port", guest: 80, host: 80, auto_correct: false, id: "http"
+    override.vm.network "forwarded_port", guest: 443, host: 443, auto_correct: false, id: "https"
+    override.vm.network "forwarded_port", guest: 50000, host: 50000, auto_correct: false, id: "jnlp"
+    override.vm.network "forwarded_port", guest: 5022, host: 5022, auto_correct: false, id: "git-ssh"
 
     # No FS share to allow any depds to the host
     config.vm.synced_folder ".", "/vagrant", disabled: true
