@@ -138,7 +138,7 @@ ls -lrh ./target/
 +
 [source,subs="attributes",bash]
 ----
-java -jar ./target/demoapp-1.0.0.jar
+java -jar ./target/demoapp.jar
 ----
 * Ouvrir une autre instance de *DevBox* et vérifier
 link:http//localhost:8080[] avec `curl`

@@ -4,7 +4,7 @@
 
 == Pré-requis
 
-* VirtualBox (5.1.30+)
+* VirtualBox (6.0+)
 ** Check: `VboxManage -v`
 * Vagrant (2.0.1+)
 ** Check: `vagrant -v`
@@ -17,7 +17,7 @@
 
 [source,bash]
 ----
-vagrant box add jenkins-lab-demo http://bit.ly/2Bl1hfI
+vagrant box add jenkins-lab-demo {box-url}
 ----
 
 == Initialiser l'environnement
