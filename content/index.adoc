@@ -1,11 +1,11 @@
 [%notitle]
-= Introduction au CI/CD - ENSG - Décembre 2017
+= Introduction au CI/CD - ENSG - Décembre 2019
 include::./attributes.adoc[]
 
 [{invert}]
 == Introduction au CI/CD
 [.title]
-ENSG - Décembre 2017
+ENSG - Décembre 2019
 
 image::qrcode.png["QRCode to this presentation",height=150]
 
