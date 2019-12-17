@@ -6,14 +6,15 @@
 [.right.text-center]
 image::damien.jpg[height="400",float="left"]
 
-* *Training Engineer* @ CloudBees
-** Docker & Apple fanboy.
-** Human stack focused
-** Rock climber
+* Freelancer
+* Former Developer Advocate @ Containous
+* Former Training Engineer @ CloudBees
+* Former Geoportail Tech Lead @ Worldine
 * Contact:
-** Twitter: link:https://twitter.com/DamienDuportal[@DamienDuportal]
-** Github: link:https://github.com/dduportal[dduportal]
-** eMail: damien.duportal@gmail.com
+** mailto:damien.duportal@gmail.com[+++<span class="far fa-envelope"></span>+++ damien.duportal@gmail.com] 
+** link:https://github.com/dduportal[+++<span class="fab fa-github"></span>+++ dduportal]
+** link:https://twitter.com/DamienDuportal[+++<span class="fab fa-twitter"></span>+++ @DamienDuportal]
+
 
 == Et vous ?
 [.left.text-center]
